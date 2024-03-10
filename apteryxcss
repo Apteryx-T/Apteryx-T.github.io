@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* 设置页面的背景颜色为白色 */
+body {
+    background-color: #ffffff;
+}
+
+/* 设置标题的样式 */
+h1 {
+    color: #333333; /* 设置标题颜色为深灰色 */
+    font-family: Arial, sans-serif; /* 设置标题字体为Arial或sans-serif */
+}
+
+/* 设置段落的样式 */
+p {
+    color: #666666; /* 设置段落文本颜色为浅灰色 */
+    font-family: Arial, sans-serif; /* 设置段落字体为Arial或sans-serif */
+}
+
+/* 设置链接的样式 */
+a {
+    color: #007bff; /* 设置链接文本颜色为蓝色 */
+    text-decoration: none; /* 移除链接的下划线 */
+}
+
+/* 设置链接悬停时的样式 */
+a:hover {
+    text-decoration: underline; /* 当鼠标悬停在链接上时显示下划线 */
+}

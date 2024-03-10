@@ -1,0 +1,18 @@
+// script.js
+
+// 获取页面中的所有链接元素
+const links = document.querySelectorAll('a');
+
+// 遍历链接元素，并为每个链接添加点击事件处理程序
+links.forEach(link => {
+    link.addEventListener('click', function(event) {
+        // 阻止链接默认的跳转行为
+        event.preventDefault();
+        
+        // 在控制台输出被点击的链接的 URL
+        console.log('链接被点击：', link.href);
+        
+        // 在新窗口中打开被点击的链接
+        window.open(link.href, '_blank');
+    });
+});
